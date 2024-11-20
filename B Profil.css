@@ -1,0 +1,196 @@
+::-webkit-scrollbar {
+    display: none;  /* Menghilangkan scrollbar visual */
+}
+
+*,
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+nav {
+    background-color: #7ac0f5;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem 2rem;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 2rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+    font-weight: 600;
+    padding: 8px 0;
+    transition: all 300ms;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+
+nav ul li a:hover {
+    color: #1e1f21;
+    border-bottom: 2px solid #1e1f21;
+}
+
+.fufufafa {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 0px 200px 0px;
+} 
+
+h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color:#7ac0f5;
+    padding: 10px;
+    color: white;
+}
+
+.joko {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.joko img {
+    width: 200px;
+    border-radius: 30px;
+    border: 1px solid;
+}
+.joko p {
+    display: inline-block;
+    text-align: center;
+    background-color: #c1e3fd;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+.tombol {
+    display: flex;
+    justify-content: center;  
+    align-items: center;    
+    margin-top: 10px;        
+    padding: 10px;
+}
+
+.tombol button {
+    padding: 10px 20px;       
+    background-color: #7ac0f5;
+    border: none;         
+    border-radius: 5px;     
+    cursor: pointer;         
+}
+
+.tombol button:hover {
+    background-color: #5a9ad1;
+    color: white;
+}
+
+/* Footer start */
+.footer {
+    background-color: #343a40;
+    color: white;
+    /* padding: 40px 0; */
+} 
+.social-networks {
+    background-color: #1373D7;
+    display: flex;
+    align-items: center; /* Mengatur teks dan ikon agar sejajar secara vertikal */
+    padding: 12px;
+}
+.social-networks h4 {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+.social-networks i{
+    margin-left: 20px;
+    color: #ffffff;
+}
+.social-networks p {
+    font-size: 20px; 
+    color: #ffffff;
+}
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px 50px;
+}
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    padding: 0 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.footer-section:nth-child(2) {
+    margin-left: 70px; /* Sesuaikan dengan jarak yang diinginkan */
+    
+}
+.footer h6 {
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ffd700;
+    font-size: 15px;
+}
+.footer p,
+.footer a {
+    color: #adb5bd;
+    text-decoration: none;
+    font-size: 15px;
+}
+  
+.footer a:hover {
+    text-decoration: underline;
+}
+.logo-text {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+  
+.logo-text img.logo {
+    margin-right: 10px;
+}
+  
+.footer-location iframe {
+    border: 1px solid white;
+    width: 100%;
+    max-width: 100%;
+    height: 200px;
+}
+  
+.footer-bar {
+    background-color: #333;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    text-align: center;
+}
+  
+.footer-text {
+    color: white;
+    font-size: 14px;
+}
+  
+.footer-text i {
+    color: lightgray;
+    margin-right: 5px;
+}
+/* Footer end *

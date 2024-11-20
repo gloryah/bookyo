@@ -1,0 +1,279 @@
+::-webkit-scrollbar {
+    display: none;  /* Menghilangkan scrollbar visual */
+}
+
+*,
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+nav {
+    background-color: #7ac0f5;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem 2rem;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 2rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+    font-weight: 600;
+    padding: 8px 0;
+    transition: all 300ms;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+
+nav ul li a:hover {
+    color: #1e1f21;
+    border-bottom: 2px solid #1e1f21;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    background-color: #c1e3fd;
+}
+
+.slide-wrapper {
+    position: relative;
+    margin: 0 auto;
+    overflow-x: hidden;
+    width: 140%;
+}
+.slider{
+    display: flex;
+    aspect-ratio: 3 / 4;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.slider img {
+    width: 100%;
+}
+
+button.prev, button.next {
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 1.5rem;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transform: translateY(-50%);
+}
+
+button.prev {
+    left: 7px;
+}
+
+button.next {
+    right: 7Px;
+}
+
+button.prev:hover, button.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.nama {
+    display: flex;
+    padding: 30px 100px 20px 100px;
+} 
+
+.namalord{
+    font-weight: 800;
+    font-size: 35px;
+}
+.halo {
+    font-size: 18px;
+}
+
+.tulisanglo {
+    padding: 0px 20px;
+    text-align: justify;
+}
+.gambarhobi {
+    width: 100px;
+    border-radius: 50px;
+    filter: grayscale(100%);
+}
+.gambarhobi:hover {
+    filter: grayscale(0%);
+}
+#hobi {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 60px;
+}
+#hobi p {
+    font-weight: bold;
+}
+.hobwi {
+    justify-content: center;
+    text-align: center;
+}
+
+.container {
+    width: 800px;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+  
+.circle {
+    width: 40px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+}
+  
+.line {
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+
+.pendidikan {
+    padding: 60px;
+}
+
+.text {
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+}
+
+.motivasi {
+    padding: 60px;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 100px 0px 100px 0px;
+    background: url(whitenew.jpg);
+}
+
+.skolah img {
+    width: 100px;
+    border-radius: 30px;
+}
+.skolah {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+/* Footer start */
+.footer {
+    background-color: #343a40;
+    color: white;
+    /* padding: 40px 0; */
+} 
+.social-networks {
+    background-color: #1373D7;
+    display: flex;
+    align-items: center; /* Mengatur teks dan ikon agar sejajar secara vertikal */
+    padding: 12px;
+}
+.social-networks h4 {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+.social-networks i{
+    margin-left: 20px;
+    color: #ffffff;
+}
+.social-networks p {
+    font-size: 20px; 
+    color: #ffffff;
+}
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px 50px;
+}
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    padding: 0 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.footer-section:nth-child(2) {
+    margin-left: 70px; /* Sesuaikan dengan jarak yang diinginkan */
+    
+}
+.footer h6 {
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ffd700;
+    font-size: 15px;
+}
+.footer p,
+.footer a {
+    color: #adb5bd;
+    text-decoration: none;
+    font-size: 15px;
+}
+  
+.footer a:hover {
+    text-decoration: underline;
+}
+.logo-text {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+  
+.logo-text img.logo {
+    margin-right: 10px;
+}
+  
+.footer-location iframe {
+    border: 1px solid white;
+    width: 100%;
+    max-width: 100%;
+    height: 200px;
+}
+  
+.footer-bar {
+    background-color: #333;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    text-align: center;
+}
+  
+.footer-text {
+    color: white;
+    font-size: 14px;
+}
+  
+.footer-text i {
+    color: lightgray;
+    margin-right: 5px;
+}
+/* Footer end *
